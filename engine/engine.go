@@ -1,5 +1,13 @@
 package engine
 
 type Engine struct {
-	Id int
+	id int
+}
+
+func (e Engine) Id() int {
+	return e.id
+}
+
+func New(id int) Engine {
+	return Engine{id}
 }

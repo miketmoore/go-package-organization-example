@@ -7,7 +7,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestEngine(t *testing.T) {
-	e := engine.Engine{1}
-	assert.Equal(t, 1, e.Id)
+func TestNewEngine(t *testing.T) {
+	e := engine.New(1)
+	assert.Equal(t, 1, e.Id())
 }
