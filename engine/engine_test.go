@@ -3,7 +3,7 @@ package engine_test
 import (
 	"testing"
 
-	"github.com/miketmoore/test/engine"
+	"github.com/miketmoore/go-package-organization-example/engine"
 	"github.com/stretchr/testify/assert"
 )
 

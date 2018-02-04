@@ -3,7 +3,7 @@ package concrete_test
 import (
 	"testing"
 
-	"github.com/miketmoore/test/concrete"
+	"github.com/miketmoore/go-package-organization-example/concrete"
 	"github.com/stretchr/testify/assert"
 )
 

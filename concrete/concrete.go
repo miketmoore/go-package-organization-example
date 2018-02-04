@@ -1,7 +1,7 @@
 // Package concrete uses the engine package
 package concrete
 
-import "github.com/miketmoore/test/engine"
+import "github.com/miketmoore/go-package-organization-example/engine"
 
 // Concrete is a struct that encapsulates an engine.Engine instance and an
 // additional name value
